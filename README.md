@@ -20,7 +20,7 @@ When you run this application in the command line with the filepath of a CSV fil
 
 ## Acceptance Criteria
 
-- Isolate the entry point from the application class as depicted in the attached [class diagram](class-diagram.png)
+- Isolate the entry point from the application class as depicted in the attached [class diagram](class-diagram.png).
 - Filesystem access should happen in its own class so it can be mocked.
 - Use Jest to mock and inject your file I/O class.
 - Isolate your CSV parsing logic from your app by refactoring it into a parser that returns a generic list of objects.
