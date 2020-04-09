@@ -14,7 +14,9 @@ You will also find an npm project with a single integration test.
 
 The test follows the outside-in paradigm, and there is currently a failing user-acceptance test.
 
-Now it is time for you to test drive the following functionality.
+When you run this application in the command line with the filepath of a CSV file (included in the repo), it should compute and print out the world's population like this:
+
+> The population of the world is: 1,347,982,728
 
 ## Acceptance Criteria
 
@@ -23,7 +25,7 @@ Now it is time for you to test drive the following functionality.
 - Use Jest to mock and inject your file I/O class.
 - Isolate your CSV parsing logic from your app by refactoring it into a parser that returns a generic list of objects.
 
-# Instructions
+## Instructions
 
 - To install the dependencies, run `npm install`.
 - To start the application, run `npm start`.
