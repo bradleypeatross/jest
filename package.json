@@ -6,6 +6,8 @@
   "author": "RachelKoldenhoven <rachel@koldenfrozen.com>",
   "license": "MIT",
   "dependencies": {
+    "csv-parser": "^2.3.3",
+    "fs": "0.0.1-security",
     "jest": "latest"
   },
   "scripts": {
