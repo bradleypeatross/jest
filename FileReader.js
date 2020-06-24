@@ -11,22 +11,21 @@ class FileReader {
         
         //fs.createReadStream(filename)
 
-        var bufferArrary = [];
+        var bufferString;
 
         fs.readFile(filename, 'utf8', 
             function(err,data){
                 //console.log (data)
-                bufferArrary.push(data);
+                bufferString = data;
+                console.log(data.length);
                 console.log(typeof data);
             });
 
-        //console.log(bufferArrary[0]);
+        return bufferString;
 
         //console.log (typeof data)
 
         //console.log(length data)
-
-
     }
 
 }
