@@ -5,6 +5,7 @@ const CsvParser = require ('./CsvParser')
 
 
 class PopulationCounter {
+    
     constructor () {   
     
     
@@ -13,9 +14,9 @@ class PopulationCounter {
 
     count(filename) {
         var freader = new fileReader();
-        bufferString = freader.readFile(filename);
+        var bufferString = freader.readFile(filename);
 
-        var parser = new CsvParser(bufferString);
+        //var parser = new CsvParser(bufferString);
 
     }
 

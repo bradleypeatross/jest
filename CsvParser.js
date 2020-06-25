@@ -3,8 +3,11 @@ class CsvParser {
 
     }
 
-    readLines() {
-        
+    readLines(bufferString) {
+        this.bufferString = bufferString;
+        return 0;
     }
 
 }
+
+module.exports = CsvParser;

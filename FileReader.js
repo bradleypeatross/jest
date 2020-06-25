@@ -11,15 +11,18 @@ class FileReader {
         
         //fs.createReadStream(filename)
 
-        var bufferString;
+        var bufferString ="";
 
-        fs.readFile(filename, 'utf8', 
+        /*
+
+        fs.readFile(fName, 'utf8', 
             function(err,data){
                 //console.log (data)
                 bufferString = data;
                 console.log(data.length);
                 console.log(typeof data);
             });
+        */
 
         return bufferString;
 
