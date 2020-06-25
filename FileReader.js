@@ -8,22 +8,18 @@ class FileReader {
 
     readFile(fName){
         this.fName = fName;
-        
+
+        //fName = "./data/testData.csv"
+
+        //  ./data/testData.csv
+        //  ./data/worldcitiespop.csv
         //fs.createReadStream(filename)
 
-        var bufferString ="";
+        var bufferString = fs.readFileSync(fName, 'utf8')
 
-        /*
-
-        fs.readFile(fName, 'utf8', 
-            function(err,data){
-                //console.log (data)
-                bufferString = data;
-                console.log(data.length);
-                console.log(typeof data);
-            });
-        */
-
+        
+        
+        //console.log("bufferString ", bufferString);
         return bufferString;
 
         //console.log (typeof data)
